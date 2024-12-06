@@ -2,7 +2,7 @@
 import { Container, Box } from '@mui/material';
 import StatsCards from '../component/StatsCards';
 import OrderGraph from '../component/OrderGraph';
-import BestSellers from '../component/BestSellers';
+import BestSellers from '../component/BestSellersGraph';
 import PricesGraph from '../component/PricesGraph';
 
 const Dashboard = () => {
