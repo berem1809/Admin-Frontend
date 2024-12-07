@@ -4,6 +4,7 @@ import Sidebar from './component/Sidebar';
 import Dashboard from './pages/DashboardPage';
 import Buyers from './pages/BuyersPage';
 import Orders from './pages/OrderListPage';
+import AllProducts from './pages/AllProducts';
 
 const theme = createTheme({
   palette: {
@@ -34,9 +35,10 @@ function App() {
             <Box sx={{ marginTop: '64px' }}> 
               <Routes>
                 <Route path="/" element={<Dashboard />} />
-        
+                <Route path="/products" element={<AllProducts />} />
                 <Route path="/buyers" element={<Buyers />} />
                 <Route path="/orders" element={<Orders />} />
+
               </Routes>
             </Box>
           </Box>
